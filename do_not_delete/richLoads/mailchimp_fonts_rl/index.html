@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Flashtalking Dynamic Ad using Javascript</title>
+	<style>
+		#container {
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow: hidden;
+			cursor: pointer;
+			background-color: antiquewhite;
+			display: none;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<img id="image1">
+		<img id="image2">
+	</div>
+
+
+	<script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+	<script>
+		var container = myFT.$("#container");
+
+		myFT.on('instantads', function () {
+
+			document.getElementById('image1').src = myFT.instantAds.image1;
+			document.getElementById('image2').src = myFT.instantAds.image2;
+			document.getElementById('image3').src = myFT.instantAds.image3;
+			document.getElementById('image4').src = myFT.instantAds.image4;
+			document.getElementById('image5').src = myFT.instantAds.image5;
+			document.getElementById('image6').src = myFT.instantAds.image6;
+
+		});
+
+	</script>
+</body>
+
+</html>
