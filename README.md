@@ -1,5 +1,5 @@
 # blank_creative_for_CDN
-Same base file and richload can be used for multiple image and fonts.
+Same base file and richload can be used for multiple images and fonts.
 
 ## Image CDN
 First upload the required images in asset manager. Then upload the richload of this repo and then create a new creative by uploading the basefile. In the new creative populate the image variables with the required images. Then approve the creative.<br>
