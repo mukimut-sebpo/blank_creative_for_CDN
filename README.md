@@ -1,0 +1,1 @@
+# blank_creative_for_CDN
