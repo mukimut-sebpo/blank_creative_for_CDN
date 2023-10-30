@@ -5,6 +5,11 @@
 	<meta charset="UTF-8">
 	<title>Flashtalking Dynamic Ad using Javascript</title>
 	<style>
+		@font-face {
+			font-family: "Means-Medium";
+			src: url("Means-Medium.woff");
+		}
+
 		#container {
 			position: absolute;
 			width: 150px;
@@ -14,17 +19,24 @@
 			overflow: hidden;
 			cursor: pointer;
 			background-color: antiquewhite;
-			display: none;
 		}
+
+		#headline {font-family: "Means-Medium";	}
 
 	</style>
 </head>
 
 <body>
+	<div id="headline">This headline is styled by font</div>
 	<div id="container">
 		<img id="image1">
 		<img id="image2">
+		<img id="image3">
+		<img id="image4">
+		<img id="image5">
+		<img id="image6">
 	</div>
+	
 
 
 	<script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>

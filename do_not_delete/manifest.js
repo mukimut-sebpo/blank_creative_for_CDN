@@ -5,7 +5,7 @@ FT.manifest({
     "clickTagCount": 0,
     "hideBrowsers": ["ie8"],
     "richLoads": [
-        { "name": "Main_RL","src": "mailchimp_fonts_rl" }
+        { "name": "Main_RL","src": "image_font_cdn_rl" }
     ],
 	"instantAds": [
 			{"name": "Main_RL", "type": "richload", "default": "mailchimp_fonts_rl"},
